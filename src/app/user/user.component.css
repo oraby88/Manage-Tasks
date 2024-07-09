@@ -1,0 +1,28 @@
+
+
+button{
+  /* margin-top: 50px; */
+  display: flex;
+  background-color: rgb(54, 36, 71);
+  border: 0;
+  padding: 10px;
+  width: 250px;
+  gap: 10px;
+  border-radius: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+button:hover{
+  background-color: blueviolet;
+}
+button.active{
+  background-color: blueviolet;
+}
+img{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+span{
+  color: white;
+}
